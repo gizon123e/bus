@@ -1,105 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Bus Website</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
     </style>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="navbar">
-        <div class="leftNav">
-            <a href="">Home</a>
-            <a href="">Bus</a>
-            <a href="">About Us</a>
-            <a href="">Why Us</a>
+      <div class="leftNav">
+        <a href="">Home</a>
+        <a href="">Bus</a>
+        <a href="">About Us</a>
+        <a href="">Agen</a>
+      </div>
+      <div class="logo">
+        <img src="images/black-version.png" alt="" />
+      </div>
+      <div class="rightNav">
+        <a href="">Gallery</a>
+        <a href="">Contact</a>
+        <a href="">Why Us</a>
+        <a href="">rute</a>
+      </div>
+      <div class="bars" id="bars">
+        <i class="fa-solid fa-bars"></i>
+        <div class="dropdown-menu hidden" id="dropdown">
+          <a href="">Home</a>
+          <a href="">Bus</a>
+          <a href="">About Us</a>
+          <a href="">Agen</a>
+          <a href="">Gallery</a>
+          <a href="">Contact</a>
+          <a href="">Why Us</a>
+          <a href="">rute</a>
         </div>
-        <div class="logo">
-            <img src="images/black-version.png" alt="">
-        </div>
-        <div class="rightNav">
-            <a href="">Gallery</a>
-            <a href="">Contact</a>
-            <a href="">Videos</a>
-            <a href="">Testimonials</a>
-        </div>
+      </div>
     </div>
     <section id="hero1">
-        <div class="tagline">
-            <h1>Roda perjalanan andalan anda</h1>
-        </div>
-        <a class="fancy" href="#">
-            <span class="top-key"></span>
-            <span class="text">Buy Tickets</span>
-            <span class="bottom-key-1"></span>
-            <span class="bottom-key-2"></span>
-          </a>
+      <div class="tagline">
+        <h1>Roda perjalanan andalan anda</h1>
+      </div>
+      <a class="fancy" href="#">
+        <span class="top-key"></span>
+        <span class="text">Buy Tickets</span>
+        <span class="bottom-key-1"></span>
+        <span class="bottom-key-2"></span>
+      </a>
     </section>
     <section id="hero3">
-        <div class="judul3">
-            <div class="kami">
-                <span></span>
-                <h1>Siapa Kami</h1>
-            </div>
-            <p class="short-description">
-                Penyedia layanan bus terkemuka yang menghubungkan berbagai destinasi dalam kenyamanan dan keamanan. 
-            </p>
+      <div class="judul3">
+        <div class="kami">
+          <span></span>
+          <h1>Siapa Kami</h1>
         </div>
-        <div class="second-part">
-            <img src="images/mockup.png" alt="">
-            <div class="text3">
-                <h1>Moda transportasi</h1>
-                <p>
-                    Kami memiliki pengalaman lebih dari dua puluh tahun dalam industri ini dan telah menjadi 
-                    salah satu pemimpin terkemuka dalam penyediaan transportasi bus di wilayah ini. 
-                    Dengan armada bus yang modern dan beragam, 
-                    kami berkomitmen untuk memberikan pengalaman perjalanan yang aman, nyaman, dan efisien kepada pelanggan kami.
-                </p>
-            </div>
+        <p class="short-description">
+          Penyedia layanan bus terkemuka yang menghubungkan berbagai destinasi
+          dalam kenyamanan dan keamanan.
+        </p>
+      </div>
+      <div class="second-part">
+        <img src="images/mockup.png" alt="" />
+        <div class="text3">
+          <h1>Moda transportasi</h1>
+          <p>
+            Kami memiliki pengalaman lebih dari dua puluh tahun dalam industri
+            ini dan telah menjadi salah satu pemimpin terkemuka dalam penyediaan
+            transportasi bus di wilayah ini. Dengan armada bus yang modern dan
+            beragam, kami berkomitmen untuk memberikan pengalaman perjalanan
+            yang aman, nyaman, dan efisien kepada pelanggan kami.
+          </p>
         </div>
+      </div>
     </section>
     <section id="hero2">
-        <div class="judul2">
-            <h1>Varian Bus</h1>
-        </div>
-        <div class="bus-container">
-            <div class="top-bus">
-                <div class="image-bus">
-                    <img src="images/Sewa-Bus-Pariwisata-Jakarta.jpg" alt="">
-                    <div class="card__content">
-                      <p class="card__title">Bus Pariwisata</p>
-                      <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                    </div>
-                </div>
-                <div class="image-bus">
-                    <img src="images/download.jpeg" alt="">
-                    <div class="card__content">
-                      <p class="card__title">Bus AKAP</p>
-                      <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                    </div>
-                </div>
+      <div class="judul2">
+        <h1>Varian Bus</h1>
+      </div>
+      <div class="bus-container">
+        <div class="top-bus">
+          <div class="image-bus">
+            <img src="images/Sewa-Bus-Pariwisata-Jakarta.jpg" alt="" />
+            <div class="card__content">
+              <p class="card__title">Bus Pariwisata</p>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
             </div>
-            <div class="bottom-bus">
-                <div class="image-bus">
-                    <img src="images/1 hiace commuter white.png" alt="">
-                    <div class="card__content">
-                        <p class="card__title">Shuttle Car</p>
-                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                    </div>
-                </div>
-                <div class="image-bus">
-                    <img src="images/sewa-bus-medium-Semarang.jpg" alt="">
-                    <div class="card__content">
-                        <p class="card__title">Medium Bus</p>
-                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                    </div>
-                </div>
+          </div>
+          <div class="image-bus">
+            <img src="images/download.jpeg" alt="" />
+            <div class="card__content">
+              <p class="card__title">Bus AKAP</p>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
             </div>
+          </div>
         </div>
+        <div class="bottom-bus">
+          <div class="image-bus">
+            <img src="images/1 hiace commuter white.png" alt="" />
+            <div class="card__content">
+              <p class="card__title">Shuttle Car</p>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
+            </div>
+          </div>
+          <div class="image-bus">
+            <img src="images/sewa-bus-medium-Semarang.jpg" alt="" />
+            <div class="card__content">
+              <p class="card__title">Medium Bus</p>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+    <section id="hero4">
+      <div class="inner-wrapper">
+        <div class="leftItem">
+          <div class="item">
+            <div class="inner-item-wrapper">
+              <img src="images/snack.png" alt="" />
+              <h3>
+                Snack Gratis
+                <span class="item-line"></span>
+              </h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, est
+              repellendus placeat adipisci sunt nam a ad nemo.
+            </p>
+          </div>
+          <div class="item">
+            <div class="inner-item-wrapper">
+              <img src="images/fasilitas.png" alt="" />
+              <h3>
+                Fasilistas bus yang lengkap
+                <span class="item-line"></span>
+              </h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, est
+              repellendus placeat adipisci sunt nam a ad nemo.
+            </p>
+          </div>
+          <div class="item">
+            <div class="inner-item-wrapper">
+              <img src="images/security.png" alt="" />
+              <h3>
+                Pemeriksaan Keamanan
+                <span class="item-line"></span>
+              </h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, est
+              repellendus placeat adipisci sunt nam a ad nemo.
+            </p>
+          </div>
+        </div>
+        <div class="imgWrapper">
+          <h1>WHY US?</h1>
+          <img src="images/whyus.png" alt="" class="whyus" />
+        </div>
+        <div class="rightItem">
+          <div class="item">
+            <div class="inner-item-wrapper">
+              <img src="images/price.png" alt="" />
+              <h3>
+                Tarif Ekonomis
+                <span class="item-line"></span>
+              </h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, est
+              repellendus placeat adipisci sunt nam a ad nemo.
+            </p>
+          </div>
+          <div class="item">
+            <div class="inner-item-wrapper">
+              <img src="images/gps.png" alt="" />
+              <h3>
+                Pemantauan gps
+                <span class="item-line"></span>
+              </h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, est
+              repellendus placeat adipisci sunt nam a ad nemo.
+            </p>
+          </div>
+          <div class="item">
+            <div class="inner-item-wrapper">
+              <img src="images/rute.png" alt="" />
+              <h3>
+                Rute yang Beragam
+                <span class="item-line"></span>
+              </h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, est
+              repellendus placeat adipisci sunt nam a ad nemo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="hero5">
+      <h1>Our Gallery</h1>
+      <div class="grid-container">
+        <div>
+          <img
+            class="grid-item grid-item-1"
+            src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt=""
+          />
+          <p>"Acara 1"</p>
+        </div>
+        <div>
+          <img
+            class="grid-item grid-item-2"
+            src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt=""
+          />
+          <p>"Acara 2"</p>
+        </div>
+        <div>
+          <img
+            class="grid-item grid-item-3"
+            src="https://scontent-sin6-4.cdninstagram.com/v/t39.30808-6/366671026_607562811547165_8447265784376485946_n.jpg?stp=dst-jpg_e15_s720x720&_nc_ht=scontent-sin6-4.cdninstagram.com&_nc_cat=101&_nc_ohc=HXxE9aBi4FwAX_oWGQr&edm=ABmJApAAAAAA&ccb=7-5&ig_cache_key=MzE3MDYwMzQ2MzQxOTYxNTk2MA%3D%3D.2-ccb7-5&oh=00_AfCvVcSm_GPYKwUXrov_2MnJnGKuZ32nzBhCzbRvNQ1Eig&oe=64FA7751&_nc_sid=b41fef"
+            alt=""
+          />
+          <p>"Acara 3"</p>
+        </div>
+        <div>
+          <img
+            class="grid-item grid-item-4"
+            src="https://images.unsplash.com/photo-1605068263928-dc295689add1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+            alt=""
+          />
+          <p>"Acara 4"</p>
+        </div>
+        <div>
+          <img
+            class="grid-item grid-item-5"
+            src="https://images.unsplash.com/photo-1647098025970-434524d35c02?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+            alt=""
+          />
+          <p>"Acara 5"</p>
+        </div>
+        <div>
+          <img
+            class="grid-item grid-item-6"
+            src="https://images.unsplash.com/photo-1657024574214-c614211d3ff9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+            alt=""
+          />
+          <p>"Acara 6"</p>
+        </div>
+        <div>
+          <img
+            class="grid-item grid-item-7"
+            src="https://scontent-sin6-1.cdninstagram.com/v/t39.30808-6/369185422_609463858023727_2099016093275730604_n.jpg?stp=dst-jpg_e15&_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=107&_nc_ohc=9d7CLt1JD1oAX8WJ1iI&edm=ABmJApAAAAAA&ccb=7-5&ig_cache_key=MzE3MzM4OTMyMDk5MTk5NzEyNg%3D%3D.2-ccb7-5&oh=00_AfDG7oBkyd5bHanPS9gNYGEDrnq6XXbfUxSTiMEL46LtDQ&oe=64FAB368&_nc_sid=b41fef"
+            alt=""
+          />
+          <p>"Acara 7"</p>
+        </div>
+        <div>
+          <img
+            class="grid-item grid-item-3"
+            src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt=""
+          />
+          <p>"Acara 8"</p>
+        </div>
+        <div>
+          <img
+            class="grid-item grid-item-9"
+            src="https://images.unsplash.com/photo-1523697753094-d89aa5119fc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+            alt=""
+          />
+          <p>"Acara 9"</p>
+        </div>
+        <div>
+          <img
+            class="grid-item grid-item-10"
+            src="https://images.unsplash.com/photo-1635758111814-015e72c1ef09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80"
+            alt=""
+          />
+          <p>"Acara 10"</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="kotak">
+        <h1>Alamat</h1>
+        <p class="alamatDetail">
+          Jl. Contoh Alamat Kecamatan di Indonesia Kota di Indonesia Provinsi di
+          Indonesia
+        </p>
+        <p>Contact: 0858-4567-9876</p>
+      </div>
+      <div class="ready">
+        <h1>Siap Berpergian dengan kami?</h1>
+        <a class="fancy" href="#">
+          <span class="top-key"></span>
+          <span class="text">Buy Tickets</span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+      </div>
+      <div class="kotak">
+        <h1>Ikuti Kami</h1>
+        <span></span>
+        <div class="sosmed">
+          <img src="images/facebook.png" alt="" />
+          <img src="images/instagram.png" alt="" />
+          <img src="images/youtube.png" alt="" />
+          <img src="images/twitter.png" alt="" />
+        </div>
+      </div>
+      <p class="copyright">yourlogobus.id</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
